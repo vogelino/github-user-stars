@@ -1,0 +1,19 @@
+{
+  "name": "github-stars",
+  "version": "1.0.0",
+  "description": "Converts stars of a given GitHub user to a CSV file",
+  "main": "githubStars.js",
+  "scripts": {
+    "run": "node githubStars.js |> result.csv"
+  },
+  "keywords": [
+    "github",
+    "stars",
+    "csv"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "3.2.3"
+  }
+}
